@@ -1,4 +1,4 @@
-package com.holkins.footbal
+package com.holkins.football
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

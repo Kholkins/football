@@ -1,13 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <layout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.holkins.football.WelcomeScreenFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/frameLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context="com.holkins.football.WelcomeScreenFragment">
+        android:layout_height="match_parent">
 
 
         <ImageView
@@ -16,7 +16,6 @@
             android:layout_height="0dp"
             android:contentDescription="@string/football"
             android:scaleType="centerCrop"
-
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
