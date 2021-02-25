@@ -28,7 +28,7 @@ class WelcomeScreenFragment : Fragment() {
             Navigation.findNavController(view).navigate(R.id.action_welcomeScreenFragment_to_quizFragment)
         }
 
-        (activity as AppCompatActivity).supportActionBar?.title = "Soccer Quiz"
+        (activity as AppCompatActivity).supportActionBar?.title = "Football"
 
         return binding.root
     }

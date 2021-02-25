@@ -106,7 +106,7 @@ class QuizFragment : Fragment() {
 
         }
 
-        (activity as AppCompatActivity).supportActionBar?.title = "Soccer Quiz"
+        (activity as AppCompatActivity).supportActionBar?.title = "Football"
 
         setHasOptionsMenu(true)
 

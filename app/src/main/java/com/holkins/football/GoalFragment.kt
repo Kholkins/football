@@ -31,7 +31,7 @@ class GoalFragment : Fragment() {
             )
         }
 
-        (activity as AppCompatActivity).supportActionBar?.title = "Soccer Quiz"
+        (activity as AppCompatActivity).supportActionBar?.title = "Football"
 
         return binding.root
     }
